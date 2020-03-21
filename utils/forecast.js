@@ -1,5 +1,6 @@
 const request = require('request')
 const chalk = require('chalk')
+// get your own tokens by signing up at https://darksky.net
 const getToken = require('../tokens.js')
 const wt = getToken.sendWKey().toString()
 

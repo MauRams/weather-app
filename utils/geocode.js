@@ -1,5 +1,6 @@
 const request = require('request')
 const getToken = require('../tokens.js')
+// get your own tokens by signing up at https://account.mapbox.com
 const pt = getToken.sendMKey().toString()
 
 const geoCode = (address, callback) => {
